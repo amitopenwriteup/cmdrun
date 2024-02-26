@@ -1,0 +1,3 @@
+FROM alpine
+ADD date.sh /
+RUN ["/date.sh", "image created"]
